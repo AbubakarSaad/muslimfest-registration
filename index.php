@@ -10,27 +10,59 @@
 </head>
 <body>
 	<div class="container">
-		<div class="">
-			<div id="logo">
-				logo
+		<div class="row">
+			<div class="span12">
+
+				<div id="logo">
+					logo
+				</div>
+				<div id="form-header"><!-- start of form header -->
+					<h2>Volunteer Registration</h2>
+					<hr>
+					<p>First Name* <br/> 
+						<input type="text" name="first-name" id="first-name"/>
+					</p>
+					<p>Last Name* <br/> 
+						<input type="text" name="last-name"  id="last-name"/>
+					</p>
+					<p>Gender <br/>
+						<select>
+							<option>select</option>
+							<option>Male</option>
+							<option>Female</option>
+						</select>
+					</p>
+					<p>City <br/>
+						<input type="text" name="city" id="city" /> 
+					</p>
+					<p>Phone* <br />
+						<input type="number" name="numbers" id="numbers" >
+					</p>
+					<p>Email* <br />
+						<input type="email" name="email" id="email" >
+					</p>
+					<p>Birthday* <br />
+						<input type="date" name="bday" id="bday" >
+					</p>
+					<p>T-Shirt size* <br/>
+						<select>
+							<option>select</option>
+							<option>Small</option>
+							<option>Medium</option>
+							<option>Large</option>
+							<option>x-Large</option>
+							<option>xx-Large</option>
+						</select>
+					</p> <!-- end of form header -->
+				</div>
+				<div id="Voluteer Areas">
+
+
+				</div>
+
 			</div>
-			<div id="form-header">
-				<h2>Volunteer Registration</h2>
-				<hr>
-				<p>First Name* <br/> 
-					<input type="text" name="first-name" id="first-name"/>
-				</p>
-				<p>Last Name* <br/> 
-					<input type="text" name="last-name"  id="last-name"/>
-				</p>
-				<p>Gender
-					<select>
-						<option>select</option>
-						<option>Male</option>
-						<option>Female</option>
-					</select>
-				</p>
-			</div>
+
+
 		</div>
 	</div>
 </body>
