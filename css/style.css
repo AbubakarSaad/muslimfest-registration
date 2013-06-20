@@ -1,5 +1,5 @@
 body{
-	background-color: #f3f3f3;
+	background-color: #fff;
 	color: #707070;
 }
 
@@ -7,11 +7,13 @@ input[type="text"]{
 	height: 30px;
 }
 
+/*
 #page {
 	background-color: #FFF;
 	padding-left: 15px;
 	padding-top: 15px;
 }
+*/
 
 #form {
 	margin-top: 15px;

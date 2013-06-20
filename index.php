@@ -10,53 +10,105 @@
 	<script type="text/javascript" src="js/validator.js"></script>
 </head>
 <body>
-	<div id="page" class="container-narrow">
-		<div class="row-fluid">
-				<div id="logo">
-					<img src="img/muslimfest_logo_mississauga2.png" width="232" height="69">
-				</div>
-				<div id="form" class="row-fluid">
-					<h3>Volunteer Registration</h3>
-					<hr>
-					<p>First Name* <br/> 
-						<input type="text" name="first-name" id="first-name"/>
-					</p>
-					<p>Last Name* <br/> 
-						<input type="text" name="last-name"  id="last-name"/>
-					</p>
-					<p>Gender <br/>
-						<select>
-							<option>select</option>
-							<option>Male</option>
-							<option>Female</option>
-						</select>
-					</p>
-					<p>City <br/>
-						<input type="text" name="city" id="city" /> 
-					</p>
-					<p>Phone* <br />
-						<input type="number" name="numbers" id="numbers" >
-					</p>
-					<p>Email* <br />
-						<input type="email" name="email" id="email" >
-					</p>
-					<p>Birthday* <br />
-						<input type="date" name="bday" id="bday" >
-					</p>
-					<p>T-Shirt size* <br/>
-						<select>
-							<option>select</option>
-							<option>Small</option>
-							<option>Medium</option>
-							<option>Large</option>
-							<option>x-Large</option>
-							<option>xx-Large</option>
-						</select>
-					</p> <!-- end of form header -->
-				</div>
-				<div id="Voluteer Areas"> <!-- Voluteer Area start here-->
-					<h3>Volunteer Areas</h3>
-					<hr>
+	<div id="page" class="container">
+		<div class="row">
+			<div id="logo" class="span12">
+				<img src="img/muslimfest_logo_mississauga2.png" width="232" height="69">
+			</div>
+		</div>
+
+		<div id="form">
+
+		<div class="row">
+			<h3 class="span12">Volunteer Registration</h3>
+			<hr class="span12">
+		</div>
+		
+		<div class="row">
+			<div class="span6">
+				<p>First Name* <br/> <input type="text" name="first-name" id="first-name"/></p>
+			</div>
+
+			<div class="span6 error"></div>
+		</div>
+		
+		<div class="row">
+			<div class="span6">
+				<p>Last Name*<br/><input type="text" name="last-name"  id="last-name"/></p>
+			</div>
+
+			<div class="span6 error"></div>
+		</div>
+		
+		<div class="row">
+			<div class="span6">
+				<p>Gender <br/>
+				<select>
+					<option>select</option>
+					<option>Male</option>
+					<option>Female</option>
+				</select>
+				</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="span6">
+				<p>City <br/><input type="text" name="city" id="city" /></p>
+			</div>
+
+			<div class="span6 error"></div>
+		</div>
+
+		<div class="row">
+			<div class="span6">
+				<p>Phone* <br /><input type="number" name="numbers" id="numbers" ></p>
+			</div>
+
+			<div class="span6 error"></div>
+		</div>
+
+		<div class="row">
+			<div class="span6">
+				<p>Email* <br /><input type="email" name="email" id="email" ></p>
+			</div>
+
+			<div class="span6 error"></div>
+		</div>
+
+		<div class="row">
+			<div class="span6">
+				<p>Birthday* <br /><input type="date" name="bday" id="bday" ></p>
+			</div>
+
+			<div class="span6 error"></div>
+		</div>
+		
+		<div class="row">
+			<div class="span6">
+				<p>T-Shirt size* <br/>
+					<select>
+						<option>select</option>
+						<option>Small</option>
+						<option>Medium</option>
+						<option>Large</option>
+						<option>x-Large</option>
+						<option>xx-Large</option>
+					</select>
+				</p> <!-- end of form header -->
+			</div>
+
+			<div class="span6 error"></div>
+		</div>
+		
+		<div id="Voluteer-Areas"> <!-- Voluteer Area start here-->
+			<div class="row">
+				<h3 class="span12">Volunteer Areas</h3>
+				<hr class="span12">
+			</div>
+			
+			<div class="row">
+				<div class="span6">
 					<p>First Choice* <br/>
 						<select>
 							<option>select</option>
@@ -71,6 +123,13 @@
 							<option>Show Prodcution</option>
 						</select>
 					</p>
+				</div>
+				
+				<div class="span6 error"></div>
+			</div>
+			
+			<div class="row">
+				<div class="span6">
 					<p>Second Choice* <br/>
 						<select>
 							<option>select</option>
@@ -85,6 +144,13 @@
 							<option>Show Prodcution</option>
 						</select>
 					</p>
+				</div>
+				
+				<div class="span6 error"></div>
+			</div>
+
+			<div class="row">
+				<div class="span6">
 					<p>Third Choice* <br/>
 						<select>
 							<option>select</option>
@@ -99,29 +165,70 @@
 							<option>Show Prodcution</option>
 						</select>
 					</p>
-				</div><!-- ends here -->
-				<div id="Emergency Contact">
-					<h3>Emergency Contact</h3>
-					<hr>
+				</div>
+				
+				<div class="span6 error"></div>
+			</div>
+		</div><!-- ends here -->
+
+		<div id="Emergency-Contact">
+			<div class="row">
+				<h3 class="span12">Emergency Contact</h3>
+				<hr class="span12">
+			</div>
+
+			<div class="row">
+				<div class="span6">
 					<p>Contact Name* <br/> 
 						<input type="text" name="contact-name" id="contact-name"/>
 					</p>
+				</div>
+
+				<div class="span6 error"></div>
+			</div>
+			
+			<div class="row">
+				<div class="span6">
 					<p>Phone Number* <br/> 
 						<input type="number" name="phone-number" id="phone-number"/>
 						<p>(separate multiple phone numbers with a comma)</p>
 					</p>
+				</div>
 
+				<div class="span6 error"></div>
+			</div>
+			
+			<div class="row">
+				<div class="span6">
 					<p>Contact Name* <br/> 
 						<input type="text" name="contact-name" id="contact-name"/>
 					</p>
+				</div>
+
+				<div class="span6 error"></div>
+			</div>
+			
+			<div class="row">
+				<div class="span6">
 					<p>Phone Number* <br/> 
 						<input type="number" name="phone-number" id="phone-number"/>
 						<p>(optional contact))</p>
 					</p>
 				</div>
-				<div id="Work Schedule">
-					<h3>Work Schedule</h3>
-					<hr>
+
+				<div class="span6 error"></div>
+			</div>
+		</div>
+
+		<!--Work Schedule-->
+		<div id="Work Schedule">
+			<div class="row">
+				<h3 class="span12">Work Schedule</h3>
+				<hr class="span12">
+			</div>
+			
+			<div class="row">
+				<div class="span6">
 					<p>July 23rd* <br/>
 						<select>
 							<option>select</option>
@@ -131,6 +238,13 @@
 							<option>7pm to 11pm</option>
 						</select>
 					</p>
+				</div>
+
+				<div class="span6 error"></div>
+			</div>
+			
+			<div class="row">
+				<div class="span12">
 					<p>July 24th* <br/>
 					<select>
 						<option>select</option>
@@ -141,9 +255,21 @@
 					</select>
 					</p>
 				</div>
-				<div id="interview Date">
-					<h3>Interview Date</h3>
-					<hr>
+				
+				<div class="span6 error"></div>
+			</div>
+			
+		</div>
+
+		<!--Interview Date -->
+		<div id="interview Date">
+			<div class="row">
+				<h3 class="span12">Interview Date</h3>
+				<hr class="span12">
+			</div>
+
+			<div class="row">
+				<div class="span6">
 					<p>Date* <br/>
 						<select>
 							<option>select</option>
@@ -158,19 +284,46 @@
 							<option>July 29, 2013</option>
 						</select>
 					</p>
-					<p>Time Slot <br/>
+				</div>
+
+				<div class="span6 error"></div>
+			</div>
+			
+			<div class="row">
+				<div class="span6">
+					<p>Time Slot <i>(once you have chosen a timeslot, that option will become unavailable for others)</i><br/>
 						<select>
 							<option>Slots</option>
 						</select>
-						<p>(once you have chosen a timeslot, that option will become unavailable for others)</p>
 					</p>
-					<p><input type="checkbox"/>I authorize MuslimFest and its authorized representatives to contact me by email with information regarding my volunteer tasks.</p>
-					<p><input type="checkbox"/>I would like to receive the MuslimFest, Dawanet and SoundVisions email newsletters.</p>
-					<p><input type="checkbox"/>I authorize MuslimFest to send me some promotional offers by email.</p>
 				</div>
-				<div>
-					<p><input type="button" value="Submit" class="btn btn-success"></p>
+
+				<div class="span6 error"></div>
+			</div>
+
+			<div class="row">
+				<div class="span12">
+					<p><input type="checkbox"/> I authorize MuslimFest and its authorized representatives to contact me by email with information regarding my volunteer tasks.</p>
 				</div>
+			</div>
+
+			<div class="row">
+				<div class="span12">
+					<p><input type="checkbox"/> I would like to receive the MuslimFest, Dawanet and SoundVisions email newsletters.</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="span12">
+					<p><input type="checkbox"/> I authorize MuslimFest to send me some promotional offers by email.</p>
+				</div>
+			</div>
+			
+				
+		</div>
+		<div>
+			<p><input type="button" value="Submit" class="btn btn-success"></p>
+		</div>
 		</div>
 	</div>
 </body>
